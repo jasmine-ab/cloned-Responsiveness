@@ -164,17 +164,20 @@ main {
         font-size: 48px;
         font-weight: 500;
         color: var(--secondary);
+        text-align: center;
         /* margin-bottom: 32px; */
     }
 
     .content h1 span {
-        padding-left: 80px;
+        /* padding-left: 80px; */
+        text-align: center;
     }
 
     .content .word {
         margin-top: 10px;
         font-size: 22px;
-        padding-left: 60px;
+        /* padding-left: 60px; */
+        text-align: center;
         color: var(--secondary);
     }
 
@@ -230,16 +233,18 @@ main {
         font-size: 48px;
         font-weight: 500;
         color: var(--secondary);
+        text-align: center;
         /* margin-bottom: 32px; */
     }
 
     .content h1 span {
-        padding-left: 80px;
+        /* padding-left: 80px; */
     }
 
     .content .word {
         margin-top: 10px;
         font-size: 22px;
+        text-align: center;
         color: var(--secondary);
     }
 
