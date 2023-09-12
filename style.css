@@ -211,7 +211,7 @@ main {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: -130px;
+        margin-top: -200px;
     }
     
     .fit .laptop-screen {
@@ -220,15 +220,15 @@ main {
         background-repeat: no-repeat;
         background-position: center;
         height: 200px;
-        width: 90%;
+        width: 95%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     
     .fit img {
-        width: 91%;
-        height: 93%;
+        width: 90%;
+        height: 50%;
         /* margin-top: auto; */
     }
 
