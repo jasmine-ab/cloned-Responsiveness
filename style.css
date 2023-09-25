@@ -1,4 +1,3 @@
-
 :root {
     --primary: #017e84;
     --secondary: white;
@@ -91,7 +90,6 @@ main {
     border-radius: 4px;
     background-color: var(--primary);
     color: var(--secondary);
-    
 }
 
 .sub-content p:nth-child(2) {
@@ -137,7 +135,7 @@ main {
 }
 
 .section-1 {
-    background-color: #e9ecef ;
+    background-color: #e9ecef;
 }
 
 .section-1-cont {
@@ -246,21 +244,21 @@ main {
 }
 
 .section-2-cont .statement .group .Mario .app {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     color: #343a40;
-    font-size:  15px;
+    font-size: 15px;
     line-height: 25px;
 }
 
 .section-2-cont .statement .group .Mario .simple {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     color: #343a40;
     font-size: 15px;
     line-height: 25px;
 }
 
 .section-2-cont .statement .group .Mario .coo {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     color: #343a40;
     font-size: 14px;
     margin: 15px 0;
@@ -318,7 +316,6 @@ main {
         display: none;
     }
 
-    
     .content {
         display: flex;
         flex-direction: column;
@@ -357,7 +354,7 @@ main {
         justify-content: center;
         margin-top: -350px;
     }
-    
+
     .fit .laptop-screen {
         background-image: url("./images/laptop_screen.svg");
         background-size: contain;
@@ -369,7 +366,7 @@ main {
         align-items: center;
         justify-content: center;
     }
-    
+
     .fit img {
         width: 90%;
         /* height: 30%; */
@@ -384,30 +381,40 @@ main {
         flex-direction: column;
         /* align-items: unset; */
     }
-    
-    .section-1-cont .left, .section-1-cont .right {
+
+    .section-1-cont .left,
+    .section-1-cont .right {
         width: 100%;
     }
-    
+
     .section-1-cont .left h2 {
         width: unset;
         font-size: 35px;
         font-weight: 500;
     }
-    
+
     .section-1-cont .left h4 {
         width: unset;
         font-size: 20px;
     }
-    
+
     .section-1-cont .left p {
         width: unset;
         font-size: 16px;
     }
 
+    .section-2-cont .image {
+        width: 100%;
+    }
+
+    .section-2-cont .image .inventory {
+        width: 100%;
+    }
+
+    /* ANOTHER RUBBISH
     .section-2 .container {
         width: 95%;
-    }
+    } */
 
     .section-2-cont .statement {
         width: unset;
@@ -415,13 +422,13 @@ main {
 
     .section-2-cont .statement h1 {
         font-size: 32px;
-        width: 600px;
-        line-height: 1.8;
-        font-weight: 540;
+        width: unset;
+        line-height: 1.4;
+        font-weight: 400; /** WATIN BE THIS? */
     }
 
     .section-2-cont .statement h4 {
-        width: 600px;
+        /* width: 600px; OSHI */
         font-size: 22px;
         font-weight: 400;
         margin: 3px 0 20px 0;
@@ -431,10 +438,11 @@ main {
         width: 100%;
     }
 
+    /* NONSENSE
     .section-2-cont .image .inventory {
         width: 300px;
         height: 400px;
-    }
+    } */
 
     /* 70vh */
     /* height = 70vh */
@@ -445,7 +453,7 @@ main {
 
 /* Tablet only */
 /* 55vh */
-@media  (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .hero {
         height: 70vh;
     }
@@ -536,76 +544,75 @@ main {
         color: var(--secondary);
     }
 
-    
-.sub-content p:nth-child(3) {
-    margin-top: 30px;
-    font-size: 15px;
-    color: var(--secondary);
-}
+    .sub-content p:nth-child(3) {
+        margin-top: 30px;
+        font-size: 15px;
+        color: var(--secondary);
+    }
 
-.sub-content p:nth-child(3) strong {
-    color: var(--secondary);
-}
+    .sub-content p:nth-child(3) strong {
+        color: var(--secondary);
+    }
 
-.fit {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: -170px;
-}
+    .fit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -170px;
+    }
 
-.fit .laptop-screen {
-    background-image: url("./images/laptop_screen.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 300px;
-    width: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .fit .laptop-screen {
+        background-image: url("./images/laptop_screen.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 300px;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-.fit img {
-    width: 93%;
-    height: 92%;
-    margin-top: auto;
-}
+    .fit img {
+        width: 93%;
+        height: 92%;
+        margin-top: auto;
+    }
 
-.section-1-cont {
-    flex-direction: column;
-    /* align-items: unset; */
-}
+    .section-1-cont {
+        flex-direction: column;
+        /* align-items: unset; */
+    }
 
-.section-1-cont .left, .section-1-cont .right {
-    width: 100%;
-}
+    .section-1-cont .left,
+    .section-1-cont .right {
+        width: 100%;
+    }
 
-.section-1-cont .left h2 {
-    width: unset;
-}
+    .section-1-cont .left h2 {
+        width: unset;
+    }
 
-.section-1-cont .left h4 {
-    width: unset;
-}
+    .section-1-cont .left h4 {
+        width: unset;
+    }
 
-.section-1-cont .left p {
-    width: unset;
-}
+    .section-1-cont .left p {
+        width: unset;
+    }
 
-.section-2-cont {
-    flex-direction: column-reverse;
-    gap: 60px;
-}
+    .section-2-cont {
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
 
-.section-2-cont .statement {
-    width: unset;
-    margin-top: unset;
-}
+    .section-2-cont .statement {
+        width: unset;
+        margin-top: unset;
+    }
 
-.section-2-cont .statement .group .Mario .app {
-    width: 75%;
-}
-
+    .section-2-cont .statement .group .Mario .app {
+        width: 75%;
+    }
 }
