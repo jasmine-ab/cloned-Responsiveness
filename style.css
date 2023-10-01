@@ -245,6 +245,7 @@ main {
 
 .section-2-cont .statement .group .Mario .app {
     font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: oblique;
     color: #343a40;
     font-size: 15px;
     line-height: 25px;
@@ -252,6 +253,7 @@ main {
 
 .section-2-cont .statement .group .Mario .simple {
     font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: oblique;
     color: #343a40;
     font-size: 15px;
     line-height: 25px;
@@ -259,6 +261,7 @@ main {
 
 .section-2-cont .statement .group .Mario .coo {
     font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: oblique;
     color: #343a40;
     font-size: 14px;
     margin: 15px 0;
@@ -269,6 +272,396 @@ main {
     width: 60px;
     /* margin-top: 20px; */
 }
+
+.section-3-cont {
+    padding: 90px 0 100px 0;
+    display: flex;
+    gap: 95px;
+}
+
+.section-3-cont .features {
+    text-align: center;
+    width: 100%;
+}
+
+.section-3-cont .features h1 {
+    font-size: 50px;
+    color: #212529;
+    font-weight: 500;
+}
+
+.section-3-cont .features h4 {
+    font-size: 25px;
+    color: #212529;
+    font-weight: 500;
+    margin: 20px 0 50px 0;
+}
+
+.section-3-cont .features .list {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    /* gap: 5px; */
+}
+
+.section-3-cont .features .list .items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-3-cont .features .list .items span .icon {
+    color: #5c5b80;
+    font-size: 30px;
+    padding: 25px 20px;
+    background-color: #e9ecef;
+    border-radius: 100%;
+}
+
+.section-3-cont .features .list .items span .arrow {
+    font-size: 20px;
+    width: 50px;
+}
+
+.section-3-cont .features .list .items span p {
+    font-size: 20px;
+    color: #212529;
+    font-weight: 500;
+}
+
+.section-4 {
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.section-4-cont {
+    padding-top: 90px;
+    display: flex;
+    gap: 95px;
+}
+
+
+.section-4-cont .experience {
+    text-align: center;
+    width: 100%;
+}
+
+.section-4-cont .experience h1 {
+    font-size: 48px;
+    color: #212529;
+    font-weight: 500;
+}
+
+.section-4-cont .experience h4 {
+    font-size: 24px;
+    color: #212529;
+    font-weight: 500;
+    margin: 16px 0 25px 0;
+}
+
+.section-4-cont .experience .p-1 {
+    font-size: 16px;
+    color: #343a40;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.section-4-cont .experience .p-2 {
+    font-size: 16px;
+    color: #343a40;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.section-4-cont .experience .internal {
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.section-4-cont .experience .YourCompany {
+    width: 90%;
+    /* height: 70%; */
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+}
+
+.section-5 .container {
+    background-image: url(./images/report.gif);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100% auto;
+    padding: 0 15px 260px;
+    /* margin: 0 50px; */
+}
+
+.section-5-cont {
+    padding-top: 90px;
+    display: flex;
+    /* gap: 95px; */
+}
+
+.section-5-cont .report {
+    padding: 0 15px 40px;
+}
+
+.section-5-cont .report h1 {
+    font-size: 48px;
+    color: #212529;
+    font-weight: 500;
+    width: 40%;
+}
+
+.section-5-cont .report h4 {
+    font-size: 24px;
+    color: #212529;
+    font-weight: 500;
+    margin: 15px 0 25px 0;
+}
+
+.section-5-cont .report p {
+    /* display: block; */
+    font-size: 17px;
+    width: 40%;
+}
+
+.section-6 {
+    background-color: #E9ECEF;
+    padding: 98px 0 48px;
+}
+
+.section-6 .container {
+    padding: 0 15px;
+    margin: 0 132px;
+}
+
+.text {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.section-6 .data {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    /* justify-content: center; */
+    margin: 0 150px;
+}
+
+.section-6 .data .each {
+    padding: 0 15px 40px;
+}
+
+.section-6 .data .each .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* width: 100%; */
+    position: relative;
+    background-color: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 3px;
+    overflow: hidden;
+    background-clip: border-box;
+    -webkit-box-direction: normal;
+    -moz-box-orient: vertical;
+    /* word-wrap: break-word; */
+    box-shadow: -40px 40px 160px 0 rgba(0, 0, 0, 0.08), -8px 8px 15px 0 rgba(120, 120, 120, 0.04), 3px 3px 30px 0 rgba(0, 0, 0, 0.04) !important;
+}
+
+.section-6 .data .each .card .card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px 5px 15px;
+}
+
+.section-6 .data .each .card .card-top h4 {
+    font-size: 23px;
+    font-weight: 500;
+    color: #212529;
+    margin: 4px 0 0;
+}
+
+.section-6 .data .each .card .card-top h4 .sales {
+    width: 48px;
+    margin: 15px;
+}
+
+.section-6 .data .each .card .card-body {
+    padding:  40px 20px;
+}
+
+.section-6 .data .each .card .card-body p {
+    font-size: 17px;
+    font-weight: lighter;
+    color: #212529;
+    line-height: 1.5;
+    /* word-wrap: break-word; */
+}
+
+.section-6 .data .each .card .line {
+    width: 100%;
+    height: 0.3px; 
+    background-color: #ddd;
+    position: absolute;
+    top: 85%; 
+    transform: translateY(-50%);
+}
+
+.section-6 .data .each .card .card-footer {
+    padding: 25px 20px 10px;
+}
+
+.section-6 .data .each .card .card-footer a {
+    font-size: 17px;
+    font-weight: 600;
+    color: #017e84;
+    text-decoration: none;
+    /* margin-top: 20px; */
+}
+
+.section-6 .data .each .card .card-footer a:hover {
+    color: #000;
+}
+
+.section-7 {
+    background-image: url(./images/arch_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 98px 0 48px;
+}
+
+.section-7 .container {
+    padding: 0;
+    margin: 0;
+    width: unset;
+}
+
+.section-7 .row {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    /* flex-wrap: wrap; */
+}
+
+.section-7 .row .single {
+    padding: 0 15px 48px;
+}
+
+.section-7 .row .single .card {
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    max-width: 360px;
+    position: relative;
+    background-color: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 3px;
+    overflow: hidden;
+    background-clip: border-box;
+    -webkit-box-direction: normal;
+    -moz-box-orient: vertical;
+    /* word-wrap: break-word; */
+    box-shadow: -40px 40px 160px 0 rgba(0, 0, 0, 0.08), -8px 8px 15px 0 rgba(120, 120, 120, 0.04), 3px 3px 30px 0 rgba(0, 0, 0, 0.04) !important;
+}
+
+.section-7 .row .single .card .card-top {
+    position: relative;
+    /* overflow: hidden; */
+    /* text-align: center; */
+    /* backface-visibility: hidden; */
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background:  */
+}
+
+.section-7 .row .single .card .card-top .cover {
+    background-image: url(./images/florida-doors.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* display: flex; */
+    width: 400px;
+    height: 300px;
+}
+
+/* rgba(0, 0, 0, 0.6); Semi-transparent black background */
+
+.section-7 .row .single .card .card-top h2 {
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,rgba(213, 101, 62, 0.3) 30%, rgba(0, 160, 157, 0.3) 100%);
+    /* color: #fff; Text color on the overl */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    /* text-align: center; */
+    padding: 20px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.section-7 .row .single .card .edge {
+    position: absolute;
+    width: 100%;
+}
+
+.section-7 .row .single .card .edge small {
+    float: right;
+    padding: 9px;
+    background-color: white;
+}
+
+.section-7 .row .single .card .edge small b {
+    font-size: 16px;
+    color: #212529;
+}
+
+.section-7 .row .single .card .card-body {
+    padding: 20px 20px 70px;
+}
+
+.section-7 .row .single .card .card-body p {
+    /* display: flex; */
+    font-size: 17px;
+    margin: 0 0 16px;
+    line-height: 1.5;
+}
+
+.section-7 .row .single .card .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.section-7 .row .single .card .card-footer a {
+    font-size: 17px;
+    font-weight: 600;
+    color: #017e84;
+    text-decoration: none;
+}
+
+.section-7 .row .single .card .card-footer .logo {
+    width: 40px;
+    height: 30px;
+}
+
+  
+
 /* Button */
 /* Solid, text, outline, icon */
 
@@ -374,11 +767,12 @@ main {
     }
 
     .section-1 .container {
-        width: 95%;
+        width: unset;
     }
 
     .section-1-cont {
         flex-direction: column;
+        /* padding: 40px; */
         /* align-items: unset; */
     }
 
@@ -396,11 +790,20 @@ main {
     .section-1-cont .left h4 {
         width: unset;
         font-size: 20px;
+        color: #212529;
+        line-height: 1.2;
     }
 
     .section-1-cont .left p {
         width: unset;
         font-size: 16px;
+        color: #212529;
+    }
+
+    .section-2-cont {
+        flex-direction: column-reverse;
+        gap: 60px;
+        /* padding: 40px; */
     }
 
     .section-2-cont .image {
@@ -409,12 +812,8 @@ main {
 
     .section-2-cont .image .inventory {
         width: 100%;
+        height: 70%;
     }
-
-    /* ANOTHER RUBBISH
-    .section-2 .container {
-        width: 95%;
-    } */
 
     .section-2-cont .statement {
         width: unset;
@@ -424,19 +823,76 @@ main {
         font-size: 32px;
         width: unset;
         line-height: 1.4;
-        font-weight: 400; /** WATIN BE THIS? */
+        font-weight: 400;
     }
 
     .section-2-cont .statement h4 {
         /* width: 600px; OSHI */
         font-size: 22px;
         font-weight: 400;
-        margin: 3px 0 20px 0;
+        margin: 10px 0 20px 0;
+        color: #212529;
     }
 
     .section-2-cont .statement p {
         width: 100%;
+        color: #343a40;
+        font-size: 16px;
     }
+
+    .section-3-cont .features h1 {
+        font-size: 30px;
+    }
+
+    .section-3-cont .features .list {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .section-4-cont .experience h1 {
+        font-size: 35px;
+        /* text-align: center; */
+    }
+
+    .section-5 .container {
+        /* margin: 0 60px; */
+        padding: 0 0 260px;
+    }
+
+    .section-5-cont .report h1 {
+        font-size: 30px;
+        width: unset;
+    }
+    
+    .section-5-cont .report h4 {
+        font-size: 21px;
+    }
+
+    .section-5-cont .report p {
+        width: unset;
+        font-size: 16px;
+        line-height: 1.1;
+    }
+
+    .section-6 .container {
+        margin: unset;
+    }
+
+    .text {
+        font-size: 30px;
+    }
+    
+    .section-6 .data {
+        grid-template-columns: 1fr;
+        margin: unset;
+    }
+
+
+    .hero {
+        height: 80vh;
+    }
+}
+
 
     /* NONSENSE
     .section-2-cont .image .inventory {
@@ -446,16 +902,24 @@ main {
 
     /* 70vh */
     /* height = 70vh */
-    .hero {
-        height: 80vh;
-    }
-}
 
 /* Tablet only */
 /* 55vh */
 @media (min-width: 768px) and (max-width: 1024px) {
     .hero {
         height: 70vh;
+    }
+
+    .section-1-cont {
+        flex-direction: column;
+        padding: 60px;
+        /* align-items: unset; */
+    }
+
+    .section-2-cont {
+        flex-direction: column-reverse;
+        gap: 60px;
+        padding: 60px;
     }
 
     .section-2-cont .statement h1 {
@@ -468,12 +932,63 @@ main {
     }
 
     .section-2-cont .statement p {
-        width: 650px;
+        width: unset;
+    }
+
+    .section-2-cont .image {
+        width: 100%;
     }
 
     .section-2-cont .image .inventory {
-        width: 650px;
-        height: 700px;
+        width: 100%;
+        height: 70%;
+    }
+
+    .section-3-cont {
+        padding: 90px 30px;
+    }
+
+    .section-3-cont .features h1 {
+        font-size: 37px;
+    }
+
+    .section-4-cont {
+        padding: 90px 30px 0;
+    }
+
+    .section-4-cont .experience h1 {
+        font-size: 38px;
+    }
+
+    .section-5 .container {
+        margin: 0 60px;
+    }
+
+    .section-5-cont .report h1 {
+        font-size: 40px;
+        width: unset;
+    }
+    
+    .section-5-cont .report h4 {
+        font-size: 22px;
+    }
+
+    .section-5-cont .report p {
+        width: unset;
+        line-height: 1.1;
+    }
+
+    .section-6 .container {
+        margin: 0 50px;
+    }
+
+    .text {
+        font-size: 30px;
+    }
+
+    .section-6 .data {
+        grid-template-columns: repeat(2 , 1fr);
+        margin: unset;
     }
 }
 
@@ -580,11 +1095,6 @@ main {
         margin-top: auto;
     }
 
-    .section-1-cont {
-        flex-direction: column;
-        /* align-items: unset; */
-    }
-
     .section-1-cont .left,
     .section-1-cont .right {
         width: 100%;
@@ -602,17 +1112,24 @@ main {
         width: unset;
     }
 
-    .section-2-cont {
-        flex-direction: column-reverse;
-        gap: 60px;
-    }
-
     .section-2-cont .statement {
         width: unset;
         margin-top: unset;
     }
 
     .section-2-cont .statement .group .Mario .app {
-        width: 75%;
+        width: 100%;
+    }
+
+    .section-3-cont .features h4 {
+        font-size: 23px;
+    }
+
+    .section-4-cont .experience h4 {
+        font-size: 23px;
+    }
+
+    .section-4-cont .experience .p-1 {
+        margin-bottom: 5px;
     }
 }
